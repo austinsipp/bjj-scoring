@@ -1,0 +1,28 @@
+#scoreboard {
+    width:100%;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-evenly
+}
+
+#controls {
+    width:100%;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-evenly
+}
+
+#leftControls {
+    display:flex;
+    flex-direction:column
+}
+
+#neutralControls {
+    display:flex;
+    flex-direction:column
+}
+
+#rightControls {
+    display:flex;
+    flex-direction:column
+}
