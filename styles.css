@@ -27,12 +27,26 @@ body {
 
 #scoreboard {
     width: 100%;
-    padding: 10%;
+    padding-top: 10%;
+    padding-bottom: 10%;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     text-align: center;
+    font-size: 300%;
     /*flex-grow: 10;*/
+}
+
+#leftScore {
+    flex-grow: 1;
+}
+
+#matchTimer {
+    flex-grow: 1;
+}
+
+#rightScore {
+    flex-grow: 1;
 }
 
 #controls {
