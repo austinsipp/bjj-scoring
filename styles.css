@@ -45,15 +45,16 @@ body {
 }
 
 #leftScore {
-    flex-grow: 1;
+    /*flex-grow: 1;*/
+
 }
 
 #matchTimer {
-    flex-grow: 1;
+    /*flex-grow: 1;*/
 }
 
 #rightScore {
-    flex-grow: 1;
+    /*flex-grow: 1;*/
 }
 
 #controls {
