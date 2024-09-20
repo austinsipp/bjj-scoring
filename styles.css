@@ -14,6 +14,7 @@ body {
     /*width: 100%;*/
     /*flex-grow: 1;*/
     height: 20vh;
+    width:90vw;
     display: flex;
     flex-direction: row;
 }
@@ -33,7 +34,7 @@ body {
 }
 
 #scoreboard {
-    width: 100vw;
+    width: 90vw;
     padding-top: 10vh;
     padding-bottom: 10vh;
     display: flex;
@@ -58,7 +59,7 @@ body {
 }
 
 #controls {
-    width: 100vw;
+    width: 90vw;
     height: 40vh;
     display: flex;
     flex-direction: row;
