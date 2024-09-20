@@ -33,6 +33,7 @@ function onPausePress() {
 }
 
 function onNeutralPositionPress() {
+    clearPress();
     rightDom = false;
     leftDom = false;
     rightAdv = false;
@@ -40,31 +41,39 @@ function onNeutralPositionPress() {
 }
 
 function onLeftDomPress() {
+    clearPress();
     rightDom = false;
     leftDom = true;
     rightAdv = false;
     leftAdv = false;
+    document.getElementById("leftDomination").style.background = "#4696FF";
 }
 
 function onRightDomPress() {
+    clearPress();
     rightDom = true;
     leftDom = false;
     rightAdv = false;
     leftAdv = false;
+    document.getElementById("rightDomination").style.background = "#4696FF";
 }
 
 function onLeftAdvPress() {
+    clearPress();
     rightDom = false;
     leftDom = false;
     rightAdv = false;
     leftAdv = true;
+    document.getElementById("leftAdvantage").style.background = "#4696FF";
 }
 
 function onRightAdvPress() {
+    clearPress();
     rightDom = false;
     leftDom = false;
     rightAdv = true;
     leftAdv = false;
+    document.getElementById("rightAdvantage").style.background = "#4696FF";
 }
 
 function onLeftSweepPress() {
@@ -96,10 +105,20 @@ function onStartPress() {
 }
 
 function onNeutralPress() {
+    clearPress();
     rightDom = false;
     leftDom = false;
     rightAdv = false;
     leftAdv = false;
+    document.getElementById("neutralPosition").style.background = "#4696FF";
+}
+
+function clearPress() {
+    document.getElementById("leftDomination").style.background = "linear-gradient(to top left,rgba(70,150,255,0.3) -150%,#FFF)";
+    document.getElementById("leftAdvantage").style.background = "linear-gradient(to top left,rgba(70,150,255,0.3) -150%,#FFF)";
+    document.getElementById("neutralPosition").style.background = "linear-gradient(to top left,rgba(70,150,255,0.3) -150%,#FFF)";
+    document.getElementById("rightDomination").style.background = "linear-gradient(to top left,rgba(70,150,255,0.3) -150%,#FFF)";
+    document.getElementById("rightAdvantage").style.background = "linear-gradient(to top left,rgba(70,150,255,0.3) -150%,#FFF)";
 }
 
 
